@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+#movieForm {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  background: #918c8cf0;
+  padding: 30px;
+  width: 600px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.alert {
+  display: none;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #e50914;
+  color: #fff;
+  padding: 20px;
+  font-weight: bold;
+}
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-add-movie {
+  border: 1px solid #cb1212;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  background: #ff455b;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  width: 300px;
+}
+#movieForm button {
+  margin-top: 10px;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.movie-card {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  border: 1px solid #eee;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.movie-details {
+  width: 100%;
+}
+.content img {
+  width: 30%;
+  margin-left: 5px;
+  border-radius: 5px;
+}
